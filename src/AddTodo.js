@@ -16,9 +16,9 @@ function AddTodo({ addTodo }) {
                 type="text"
                 value={value}
                 onChange={(e) => setValue(e.target.value)}
-                placeholder="Enter a new todo"
+                placeholder="Agregar una tarea"
             />
-            <button type="submit">Add Todo</button>
+            <button type="submit">Agregar tarea</button>
         </form>
     );
 }
